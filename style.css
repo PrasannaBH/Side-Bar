@@ -281,6 +281,28 @@ body {
     font-size: 12px;
 }
 
+.home-section{
+    position: relative;
+    background: #E4E9F7;
+    min-height: 100vh;
+    top: 0;
+    left: 78px;
+    width: calc(100% - 78px);
+    transition: all 0.5s ease;
+    z-index: 2;
+}
+.sidebar.active ~ .home-section{
+    left: 240px;
+    width: calc(100% - 240px);
+}
+.home-section .text{
+    display: inline-block;
+    color: #11101d;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 18px
+}
+
 /* For Bottom part of navbar */
 
 /* .bottom ul {
