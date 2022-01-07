@@ -21,65 +21,65 @@
             <li>
                 <i class='bx bx-search' ></i>
                 <input type="text" placeholder="Search...">
-                <!-- <span class="tooltip">Search</span> -->
+                <span class="tooltip">Search</span>
             </li>
             <li>
                 <a href="#">
                     <i class='bx bx-rocket' ></i>
                     <span class="links-name">Performance</span>
                 </a>
-                <!-- <span class="links-name">Performance</span> -->
+                <span class="tooltip">Performance</span>
             </li>
             <li>
                 <a href="#">
                     <i class='bx bx-target-lock'></i>
                     <span class="links-name">Target</span>
                 </a>
-                <!-- <span class="links-name">Performance</span> -->
+                <span class="tooltip">Target</span>
             </li>
             <li>
                 <a href="#">
                     <i class='bx bx-edit-alt' ></i>
                     <span class="links-name">Edit</span>
                 </a>
-                <!-- <span class="links-name">Performance</span> -->
+                <span class="tooltip">Edit</span>
             </li>
             <li>
                 <a href="#">
-                    <i class='bx bx-edit-alt' ></i>
-                    <span class="links-name">Diff</span>
-                    <!-- <span class="links-name">Performance</span> -->
+                    <i class='bx bx-buildings'></i>
+                    <span class="links-name">Build</span>
                 </a>
+                <span class="tooltip">Build</span>
             </li>
             
             
         </ul>
-
-        <div class="bottom">
-            <ul>
-                <li id="bottom-nav">
-                    <a href="#">
-                        <i class='bx bx-cloud-lightning nav-bottom'></i>
-                        <span class="links-name">Cloud</span>
-                    </a>
-                    <!-- <span class="tooltip">Cloud</span> -->
-                </li>
-                <li id="bottom-nav">
-                    <a href="#">
-                        <i class='bx bx-bell nav-bottom'></i>
-                        <span class="links-name">Notification</span>
-                    </a>
-                    <!-- <span class="tooltip">Notification</span> -->
-                </li>
-                <li id="bottom-nav">
-                    <a href="#">
-                        <i class='bx bx-help-circle'></i>
-                        <span class="links-name">Help</span>
-                    </a>
-                    <!-- <span class="tooltip">Help</span> -->
-                </li>
-            </ul>
-        </div>
+        <br><br>
+        <!-- <div class="bottom"> -->
+        <ul>
+            <li id="bottom-nav">
+                <a href="#">
+                    <i class='bx bx-cloud-lightning nav-bottom'></i>
+                    <span class="links-name">Cloud</span>
+                </a>
+                <span class="tooltip">Cloud</span>
+            </li>
+            <li id="bottom-nav">
+                <a href="#">
+                    <i class='bx bx-bell nav-bottom'></i>
+                    <span class="links-name">Notification</span>
+                </a>
+                <span class="tooltip">Notification</span>
+            </li>
+            <li id="bottom-nav">
+                <a href="#">
+                    <i class='bx bx-help-circle'></i>
+                    <span class="links-name">Help</span>
+                </a>
+                <span class="tooltip">Help</span>
+            </li>
+        </ul>
+        <!-- </div> -->
         <div class="profile_content">
             <div class="profile">
                 <div class="profile_details">
@@ -92,5 +92,20 @@
             </div>
         </div>
     </div>
+
+    <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        let searchBtn = document.querySelector(".bx-search");
+
+        btn.onclick = function() {
+            sidebar.classList.toggle("active");
+        }
+
+        searchBtn.onclick = function() {
+            sidebar.classList.toggle("active");
+        }
+    </script>
+
 </body>
 </html>
