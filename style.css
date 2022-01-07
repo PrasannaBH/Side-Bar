@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 240px;
+    background: #f8f8f9;
+    padding: 6px 14px;
+}
+
+.sidebar .logo_content .logo {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+.logo_content .logo i {
+    font-size: 28px;
+    margin-right: 5px;
+}
+
+.logo_content .logo .logo_name {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.sidebar #btn {
+    position: absolute;
+    left: 83%;
+    top: 5px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+}
+
+.sidebar ul {
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0 5px;
+    list-style: none;
+    line-height: 40px;
+}
+
+.sidebar ul li input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: #aeaeb3;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+.sidebar ul li .bx-search {
+    position: absolute;
+    z-index: 99;
+    font-size: 22px;
+}
+
+.sidebar ul li a {
+    display: flex;
+    color: black;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 13px;
+}
+
+.sidebar ul li a:hover {
+    color: #f8f8f9;
+    background: #aeaeb3;
+}
+
+.sidebar ul li i {
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.sidebar .bottom {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    padding-left: 15px;
+    align-items: center;
+}
+
+.sidebar .bottom ul li a {
+    /* display: flex; */
+    /* color: black; */
+    /* align-items: center; */
+    /* text-decoration: none; */
+    transition: all 0.3s ease;
+    /* border-radius: 13px; */
+}
+
+.sidebar .profile_content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.sidebar .profile_content .profile {
+    position: relative;
+    padding: 10px 6px;
+    height: 60px;
+}
+
+.sidebar .profile_content .profile .profile_details {
+    display: flex;
+    align-items: center;
+}
+
+.profile .profile_details img {
+    height: 45px;
+    width: 45px;
+    padding: 2px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.profile .profile_details .job_name {
+    margin-left: 13px;
+}
+
+.profile .profile_details .name {
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+.profile .profile_details .job {
+    font-size: 12px;
+}
+
+/* For Bottom part of navbar */
+
+/* .bottom ul {
+    margin-top: 20px;
+}
+
+.bottom ul li {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0 5px;
+    list-style: none;
+    line-height: 40px;
+}
+
+.bottom ul li a {
+    display: flex;
+    color: black;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 13px;
+}
+
+.bottom ul li a:hover {
+    color: #f8f8f9;
+    background: #aeaeb3;
+}
+
+.bottom ul li i {
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+} */
