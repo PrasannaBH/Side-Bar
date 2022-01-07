@@ -303,6 +303,11 @@ body {
     margin: 18px
 }
 
+
+.sidebar .bottom {
+    padding-top: 190px;
+}
+
 /* For Bottom part of navbar */
 
 /* .bottom ul {
